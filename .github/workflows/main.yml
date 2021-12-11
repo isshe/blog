@@ -43,9 +43,20 @@ jobs:
           cat .git/config
           git add -A
           git commit -m "update site"
-          git push origin master
+          # git push origin master
           # https:://$username:$token@github.com/isshe/isshe.github.io.git
         env:
           token: ${{secrets.GITHUB_TOKEN}}
           username: isshe
           email: i.sshe@outlook.com
+
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.FOR_WORKFLOW_PUSH }}
+        with:
+          source-directory: 'isshe.github.io'
+          destination-github-username: 'isshe'
+          destination-repository-name: 'isshe.github.io'
+          user-email: i.sshe@outlook.com
+          target-branch: master
