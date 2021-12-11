@@ -1,4 +1,4 @@
-baseurl: https://isshe.github.io
+baseurl: https://blog.isshe.ltd
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
