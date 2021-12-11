@@ -31,24 +31,12 @@ jobs:
         with:
           repository: isshe/isshe.github.io
           path: isshe.github.io
-          token: ${{secrets.GITHUB_TOKEN}}
 
       - name: Copy to isshe.github.io
         run: |
           rm -rf isshe.github.io/*
           cp -rf ./public/* isshe.github.io/
-          # cd isshe.github.io
-          # git config --local user.name "$username"
-          # git config --local user.email "$email"
-          # cat .git/config
-          # git add -A
-          # git commit -m "update site"
-          # git push origin master
-          # https:://$username:$token@github.com/isshe/isshe.github.io.git
-        env:
-          token: ${{secrets.GITHUB_TOKEN}}
-          username: isshe
-          email: i.sshe@outlook.com
+          cat .git/config
 
       - name: Pushes to isshe.github.io
         uses: cpina/github-action-push-to-another-repository@main
