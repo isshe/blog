@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  deploy:
+  Deploy:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
@@ -26,9 +26,24 @@ jobs:
           hugo --minify
           ls ./public
 
-      # - name: Deploy
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   if: github.ref == 'refs/heads/main'
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: ./public
+      - name: Clone isshe.github.io
+        uses: actions/checkout@v2
+        with:
+          repository: isshe/isshe.github.io
+          path: isshe.github.io
+          token: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Deploy
+        run: |
+          rm -rf isshe.github.io/*
+          cp -rf ./public/* isshe.github.io/
+          cd isshe.github.io
+          git config --local user.name "$username"
+          git config --local user.email "$email"
+          git add -A
+          git commit -m "update site"
+          git push https:://$username:$token@github.com/isshe/isshe.github.io.git
+        env:
+          token: ${{secrets.GITHUB_TOKEN}}
+          username: isshe
+          email: i.sshe@outlook.com
