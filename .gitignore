@@ -1,3 +1,5 @@
 # isshe
 temp/
 .hugo_build.lock
+public/
+resources/
