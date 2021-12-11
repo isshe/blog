@@ -36,7 +36,8 @@ jobs:
         run: |
           rm -rf isshe.github.io/*
           cp -rf ./public/* isshe.github.io/
-          cat .git/config
+          cat isshe.github.io/.git/config
+          echo "${{ secrets.FOR_WORKFLOW_PUSH }}"
 
       - name: Pushes to isshe.github.io
         uses: cpina/github-action-push-to-another-repository@main
