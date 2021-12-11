@@ -23,6 +23,8 @@ jobs:
 
       - name: Build
         run: |
+          sed -i "s/clientID: 'replace me'/clientID: ${{ secrets.APP_CLIENT_ID }}/" config.yaml
+          sed -i "s/clientSecret: 'replace me'/clientSecret: ${{ secrets.APP_CLIENT_SECRET }}/" config.yaml
           hugo --minify
           ls ./public
 
