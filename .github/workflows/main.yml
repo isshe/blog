@@ -41,10 +41,10 @@ jobs:
           git config --local user.name "$username"
           git config --local user.email "$email"
           cat .git/config
-          cat ~/.gitconfig
           git add -A
           git commit -m "update site"
-          git push https:://$username:$token@github.com/isshe/isshe.github.io.git
+          git push origin master
+          # https:://$username:$token@github.com/isshe/isshe.github.io.git
         env:
           token: ${{secrets.GITHUB_TOKEN}}
           username: isshe
