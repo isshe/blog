@@ -33,16 +33,16 @@ jobs:
           path: isshe.github.io
           token: ${{secrets.GITHUB_TOKEN}}
 
-      - name: Deploy
+      - name: Copy to isshe.github.io
         run: |
           rm -rf isshe.github.io/*
           cp -rf ./public/* isshe.github.io/
-          cd isshe.github.io
-          git config --local user.name "$username"
-          git config --local user.email "$email"
-          cat .git/config
-          git add -A
-          git commit -m "update site"
+          # cd isshe.github.io
+          # git config --local user.name "$username"
+          # git config --local user.email "$email"
+          # cat .git/config
+          # git add -A
+          # git commit -m "update site"
           # git push origin master
           # https:://$username:$token@github.com/isshe/isshe.github.io.git
         env:
@@ -50,7 +50,7 @@ jobs:
           username: isshe
           email: i.sshe@outlook.com
 
-      - name: Pushes to another repository
+      - name: Pushes to isshe.github.io
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.FOR_WORKFLOW_PUSH }}
@@ -60,3 +60,4 @@ jobs:
           destination-repository-name: 'isshe.github.io'
           user-email: i.sshe@outlook.com
           target-branch: master
+          commit-message: 'change: update site.'
