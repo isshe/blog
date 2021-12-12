@@ -45,7 +45,7 @@ jobs:
           rm -rf isshe.github.io/*
           cp -rf ./public/* isshe.github.io/
           cd isshe.github.io/
-          echo "blog.isshe.ltd" > ./CNAME
+          echo "$(grep -rs "baseurl: https://" ../config.yaml | awk -F '/' '{print $3}')" > ./CNAME
           git config --unset-all http.https://github.com/.extraheader
           cat .git/config
           cd ..
