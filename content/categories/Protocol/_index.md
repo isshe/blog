@@ -1,9 +1,9 @@
 ---
 title: "Protocol"
 slug: "Protocol"
-image: "couple-gde322534f_640.jpg"
+image: "image.png"
 style:
-   background: "#7D4F3A"
+   background: "#F56224"
    color: "#fff"
 ---
 

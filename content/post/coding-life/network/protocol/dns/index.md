@@ -2,7 +2,7 @@
 title = "DNS 协议介绍"
 categories = [ "DNS", "计算机网络", "网络协议", "Protocol", "Computer Network" ]
 tags = [ "dns", "计算机网络", "网络协议", "protocol", "computer network" ]
-date = "2021-12-12 15:57:08"
+date = "2021-12-12 16:13:02"
 author = "isshe"
 +++
 

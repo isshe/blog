@@ -1,9 +1,9 @@
 ---
 title: "DNS"
 slug: "DNS"
-image: "stack-gdb222d7b7_640.jpg"
+image: "image.jpeg"
 style:
-   background: "#576AED"
+   background: "#787B62"
    color: "#fff"
 ---
 

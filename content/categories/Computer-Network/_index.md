@@ -1,9 +1,9 @@
 ---
 title: "Computer Network"
 slug: "Computer Network"
-image: "challenge-gc6b17fc56_640.png"
+image: "image.jpg"
 style:
-   background: "#1C0886"
+   background: "#64E971"
    color: "#fff"
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "VLAN"
 slug: "VLAN"
-image: "walls-g02b278a7c_640.png"
+image: "image.jpg"
 style:
-   background: "#F1D666"
+   background: "#50C36F"
    color: "#fff"
 ---
 

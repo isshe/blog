@@ -1,9 +1,9 @@
 ---
 title: "ARP"
 slug: "ARP"
-image: "city-g43d050a5e_640.jpg"
+image: "image.jpg"
 style:
-   background: "#4D8DCE"
+   background: "#EE21B4"
    color: "#fff"
 ---
 
