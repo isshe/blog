@@ -2,12 +2,9 @@
 title = "DNS 协议介绍"
 categories = [ "DNS", "计算机网络", "网络协议", "Protocol", "Computer Network" ]
 tags = [ "dns", "计算机网络", "网络协议", "protocol", "computer network" ]
-date = "2021-12-12 15:29:37"
+date = "2021-12-12 15:36:10"
 author = "isshe"
 +++
-
-
-[TOC]
 
 DNS
 ---

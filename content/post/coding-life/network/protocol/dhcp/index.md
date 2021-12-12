@@ -3,24 +3,9 @@ title = "DHCP 协议介绍"
 image = "dhcp.png"
 categories = [ "DHCP", "计算机网络", "网络协议", "Protocol", "Computer Network" ]
 tags = [ "dhcp", "计算机网络", "网络协议", "protocol", "computer network" ]
-date = "2021-12-12 15:29:37"
+date = "2021-12-12 15:36:10"
 author = "isshe"
 +++
-
----
-title: 【网络协议】DHCP-动态主机配置协议
-date: 2018-08-18 14:30:31
-tags: 
-  - 计算机网络
-  - DHCP
-categories: 网络协议
-toc: false
-mathjax: false
-description:
-top: false
----
-
-[TOC]
 
 DHCP
 ---
