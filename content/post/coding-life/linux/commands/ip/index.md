@@ -2,9 +2,9 @@
 title = "Linux 命令 —— ip"
 categories = [ "Linux 命令" ]
 tags = [ "ip", "linux 命令", "command", "linux" ]
-date = "2021-12-13 06:52:14"
+date = "2021-12-13 16:07:25"
 author = "isshe"
-image = "image.png"
+image = "image.jpg"
 +++
 
 
