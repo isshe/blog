@@ -1,9 +1,10 @@
 +++
-title = "DNS 协议介绍"
-categories = [ "DNS", "计算机网络", "网络协议", "Protocol", "Computer Network" ]
-tags = [ "dns", "计算机网络", "网络协议", "protocol", "computer network" ]
-date = "2021-12-13 04:33:35"
+title = "网络协议 —— DNS"
+tags = [ "dns", "网络协议", "计算机网络", "protocol", "computer network" ]
+date = "2021-12-13 06:52:14"
 author = "isshe"
+categories = [ "网络协议", "计算机网络" ]
+image = "image.jpeg"
 +++
 
 DNS
