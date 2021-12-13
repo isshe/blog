@@ -44,11 +44,11 @@ sighandler_t signal(int signum, sighandler_t handler);
 * 系统调用可以被中断。
   * 如read、wait、accept这样的`慢速系统调用`被信号打断，但是信号处理函数返回后不再继续被打断的系统调用，而是立即返回错误，errno为`EINTR`。
 
-* 详见[ex_SIGCHLD.c](./Examples/ex_SIGCHLD.c)
+* 详见[ex_SIGCHLD.c](Examples/ex_SIGCHLD.c)
 * **教训：不可以用信号来对其他进程中发生的时间计数**
 
 ## 3. 显式地阻塞和取消阻塞信号
-这2个操作在某些情况下也是什么有用的，且必须的，能消除一些竞争条件。（详见[ex3](./Examples/3_ex_procmask_bug.c)和[ex4](./Examples/4_ex_procmask_fix_bug.c)）
+这2个操作在某些情况下也是什么有用的，且必须的，能消除一些竞争条件。（详见[ex3](./Examples/3_ex_procmask_bug.c)和[ex4](Examples/4_ex_procmask_fix_bug.c)）
 * 相关函数
 ```c
 #include <signal.h>
@@ -69,10 +69,10 @@ int sigismember(const sigset_t *set, int signo);
 ## A.拓展
 * 进程组。详见[1.进程](../../1.进程)
 * Linux信号
-  ![Linux信号](./Linux_signal.png)
-* 回收子进程的方式：用SIGCHLD信号。子进程终止时，会发送SIGCHLD信号给其父进程。【详见[ex_SIGCHILD.c](./Examples/ex_SIGCHLD.c)】
+  ![Linux信号](Linux_signal.png)
+* 回收子进程的方式：用SIGCHLD信号。子进程终止时，会发送SIGCHLD信号给其父进程。【详见[ex_SIGCHILD.c](Examples/ex_SIGCHLD.c)】
 * 可移植的signal函数。【详见[isshe_signal.h](../../A.lib/isshe_signal.h)和[isshe_signal.c](../../A.lib/isshe_signal.c)】
-* 非本地跳转：可和信号一起实现程序重启功能。【详见[ex_restart](./Examples/5_ex_restart.c)，macOS上行为和书本有所不同】
+* 非本地跳转：可和信号一起实现程序重启功能。【详见[ex_restart](Examples/5_ex_restart.c)，macOS上行为和书本有所不同】
     * 相关函数
     ```c
     #include <setjmp.h>

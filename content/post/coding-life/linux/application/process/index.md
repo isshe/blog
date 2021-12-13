@@ -31,18 +31,18 @@ categories = [ "操作系统" ]
 
 ## 1.进程地址空间
 ### 1.1 典型进程地址空间1
-![典型进程地址空间1](./process_address_map.png)
+![典型进程地址空间1](process_address_map.png)
 * 代码段起始地址：
   * 32位：0x08048000
   * 64位：0x00400000
 * 进程从用户模式变为内核模式的方法是：中断、故障、陷入系统调用。
 
 ### 1.2 典型进程地址空间2
-![典型进程地址空间2](./process_address_map2.png)
+![典型进程地址空间2](process_address_map2.png)
 
 ## 2. 进程状态 
 ### 2.1 状态转换图
-* ![状态转换图](./process_status_change.png)
+* ![状态转换图](process_status_change.png)
 
 
 ### 2.2 基本状态
@@ -110,7 +110,7 @@ void _exit(int status);
 * 6）[选]打开/dev/null使进程具有文件描述符0/1/2。
     * 使所有读标准输入，写标准输出/错误输出的库例程都不会产生效果。
 ### 4.2 示例
-* 见[守护进程示例](./Examples/1_daemonize.c)
+* 见[守护进程示例](Examples/1_daemonize.c)
 
 ### 4.3 守护进程的惯例
 * 锁文件放`/var/run`目录，命名为`name.pid`。
@@ -174,14 +174,14 @@ int pause(void);
 【详见[ex_SIGCHLD.c](../2.信号/Examples/2_ex_SIGCHLD.c)】
 
 ### A.3 C程序的启动和终止
-![C程序的启动和终止](./c_program_start_end.png)
+![C程序的启动和终止](c_program_start_end.png)
 * **内核使程序执行的唯一方法：exec!**
 
 ### A.4 进程资源限制
 * 见《Unix环境高级编程》p175
 
 ### A.5 7个exec的关系
-![7个exec的关系](./7_exec_relationship.png)
+![7个exec的关系](7_exec_relationship.png)
 
 ### A.6 ps命令中进程状态
 * `R`: TASK_RUNNING，可执行状态。
