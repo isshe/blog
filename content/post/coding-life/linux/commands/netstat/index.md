@@ -2,9 +2,9 @@
 title = "Linux 命令 —— netstat"
 categories = [ "Linux 命令" ]
 tags = [ "netstat", "linux 命令", "command", "linux" ]
-date = "2021-12-13 16:07:25"
+date = "2021-12-13 02:51:23 -0400"
 author = "isshe"
-image = "image.jpg"
+image = "image.png"
 +++
 
 
