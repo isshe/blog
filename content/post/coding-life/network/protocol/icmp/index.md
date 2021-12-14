@@ -1,6 +1,6 @@
 +++
 title = "网络协议 —— ICMP"
-tags = [ "icmp", "网络协议", "计算机网络", "protocol", "computer network" ]
+tags = [ "ICMP", "网络协议", "计算机网络", "protocol", "Computer Network" ]
 date = "2021-12-12 11:24:32 -0400"
 author = "isshe"
 categories = [ "网络协议", "计算机网络" ]

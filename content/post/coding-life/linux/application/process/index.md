@@ -1,7 +1,7 @@
 +++
 title = "操作系统 —— 进程"
 image = "process_address_map.png"
-tags = [ "process", "操作系统", "os", "application", "linux" ]
+tags = [ "process", "操作系统", "application", "linux" ]
 date = "2021-12-13 02:51:23 -0400"
 author = "isshe"
 categories = [ "操作系统" ]

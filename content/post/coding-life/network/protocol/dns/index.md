@@ -1,6 +1,6 @@
 +++
 title = "网络协议 —— DNS"
-tags = [ "dns", "网络协议", "计算机网络", "protocol", "computer network" ]
+tags = [ "DNS", "网络协议", "计算机网络", "protocol", "Computer Network" ]
 date = "2021-12-12 11:35:47 -0400"
 author = "isshe"
 categories = [ "网络协议", "计算机网络" ]

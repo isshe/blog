@@ -1,0 +1,56 @@
++++
+title = "操作系统 —— 进程间通信之FIFO"
+categories = [ "进程间通信", "操作系统" ]
+tags = [ "fifo", "进程间通信", "操作系统", "application", "linux" ]
+date = "2021-12-13 02:51:23 -0400"
+author = "isshe"
+image = "image.jpg"
++++
+
+
+# FIFO
+* FIFO有时被称为命名管道。
+* FIFO是一种文件类型。
+* 支持在无亲缘进程间使用。
+
+## 1. FIFO创建
+* 创建FIFO类似于创建文件；FIFO的路径名存在于文件系统中。
+
+## 2. 创建FIFO
+* 相关函数
+```c
+#include <sys/stat.h>
+int mkfifo(const char *path, mode_t mode);
+// 在fd表示的目录相关位置，创建一个FIFO。
+// * path为绝对路径，则忽略fd
+// * path为相对路径，则fd参数是一个打开的目录的文件描述符。路径名和目录有关【？？？】
+// * path为相对路径，并且fd参数有特殊值AT_FDCWD，则路径名以当前目录开始。
+int mkfifoat(int fd, const char *path, mode_t mode);
+```
+
+## 3. 其他
+* open一个FIFO时，非阻塞标记(O_NONBLOCK)会产生的影响：
+    * 一般情况下(没有指定O_NONBLOCK)，
+        * 只读open要阻塞到其他进程为写打开此FIFO为止；
+        * 只写open要阻塞到其他进程为读打开此FIFO为止；
+    * 如果指定了O_NONBLOCK，则：
+        * 只读open时，立即返回。【返回啥？正常返回？】
+        * 只写open时，如果没有其他进程为读打开此FIFO，则此只写open返回-1，errno置为ENXIO。
+* 若write一个没有进程为读打开的FIFO，则产生信号SIGPIPE。（类似pipe）
+* 若FIFO的最后一个写进程关闭了该FIFO，则将为改FIFO的读进程产生一个文件结束标记。（类似于pipe）
+* FIFO的两种用途：
+    * shell命令使用FIFO将数据从一条管道传送到另一条时，无需创建中间临时文件；
+    * 客户——服务器进程应用中，FIFO用作汇聚点，在客户和服务器进程间传递数据；
+
+## 4.管道和FIFO的限制
+* OPEN_MAX: 一个进程在任意时刻打开的最大描述符数。（sysconf函数获取）
+    * 示例见[3_ex_pipeconf.c](Examples/3_ex_pipeconf.c)
+* PIPE_BUF: 可原子写管道/FIFO的最大数据量。（pathconf/fpathconf函数获取）
+    * 示例见[3_ex_pipeconf.c](Examples/3_ex_pipeconf.c)
+
+## A. 疑问
+
+## B. 参考
+* 《unix环境高级编程 第三版》
+* 《UNIX网络编程 卷2 进程间通信 第2版》
+
