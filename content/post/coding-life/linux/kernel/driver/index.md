@@ -4,7 +4,7 @@ tags = [ "driver", "linux 内核", "kernel", "linux" ]
 date = "2021-12-13 02:51:23 -0400"
 author = "isshe"
 categories = [ "Linux 内核" ]
-image = "image.jpeg"
+image = "image.png"
 +++
 
 
