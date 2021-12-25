@@ -3,7 +3,7 @@ title: "操作系统"
 slug: "操作系统"
 image: "image.png"
 style:
-   background: "#6f53ae"
+   background: "#eab3ae"
    color: "#fff"
 ---
 
