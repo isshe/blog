@@ -181,10 +181,16 @@ menu:
 
     social:
         - identifier: github
-          name: GitHub
+          name: A-GitHub
           url: https://github.com/isshe
           params:
             icon: brand-github
+
+        - identifier: email
+          name: B-E-Mail
+          url: mailto:i.sshe@outlook.com
+          params:
+            icon: mail
 
 related:
     includeNewer: true
