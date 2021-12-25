@@ -4,7 +4,7 @@ tags = [ "VLAN", "网络协议", "计算机网络", "protocol", "Computer Networ
 date = "2021-12-12 11:35:47 -0400"
 author = "isshe"
 categories = [ "网络协议", "计算机网络" ]
-image = "image.png"
+image = "image.jpeg"
 +++
 
 VLAN

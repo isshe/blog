@@ -1,10 +1,10 @@
 +++
-title = "图解密码技术 —— 第 1 章-环游密码世界"
+title = "图解密码技术 —— 第一章-环游密码世界"
 date = "2021-12-25 02:22:19 -0400"
 author = "isshe"
 categories = [ "读书笔记", "图解编码技术" ]
 tags = [ "读书笔记", "图解编码技术", "Study Notes" ]
-image = "image.png"
+image = "image.jpg"
 +++
 
 
