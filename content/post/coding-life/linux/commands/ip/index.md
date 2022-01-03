@@ -4,7 +4,7 @@ categories = [ "Linux 命令" ]
 tags = [ "ip", "linux 命令", "command", "linux" ]
 date = "2021-12-13 02:51:23 -0400"
 author = "isshe"
-image = "image.png"
+image = "image.jpg"
 +++
 
 
