@@ -4,7 +4,7 @@ date = "2021-12-25 02:22:19 -0400"
 author = "isshe"
 categories = [ "数据库", "Postgresql" ]
 tags = [ "数据库", "postgresql", "Database" ]
-image = "image.jpg"
+image = "image.jpeg"
 +++
 
 
