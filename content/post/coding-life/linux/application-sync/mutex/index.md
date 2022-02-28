@@ -4,7 +4,7 @@ categories = [ "进线程同步", "操作系统" ]
 tags = [ "mutex", "进线程同步", "操作系统", "application", "linux" ]
 date = "2021-12-13 02:51:23 -0400"
 author = "isshe"
-image = "image.png"
+image = "image.jpg"
 +++
 
 
