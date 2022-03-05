@@ -1,7 +1,7 @@
 +++
 title = "设计模式 —— 抽象工厂模式"
 date = "2021-12-12 07:15:30 -0400"
-image = "compare_method_abstract1.png"
+image = "ClassDiagram.png"
 author = "isshe"
 categories = [ "设计模式" ]
 tags = [ "设计模式", "Design Pattern" ]
