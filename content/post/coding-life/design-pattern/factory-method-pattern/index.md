@@ -1,7 +1,7 @@
 +++
 title = "设计模式 —— 工厂方法模式"
 date = "2021-12-12 07:15:30 -0400"
-image = "ClassDiagram_CPP.png"
+image = "ClassDiagram_HF.png"
 author = "isshe"
 categories = [ "设计模式" ]
 tags = [ "设计模式", "Design Pattern" ]
