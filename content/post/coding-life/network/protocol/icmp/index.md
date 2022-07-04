@@ -4,7 +4,7 @@ tags = [ "ICMP", "网络协议", "计算机网络", "protocol", "Computer Networ
 date = "2021-12-12 11:24:32 -0400"
 author = "isshe"
 categories = [ "网络协议", "计算机网络" ]
-image = "image.jpeg"
+image = "image.jpg"
 +++
 
 
