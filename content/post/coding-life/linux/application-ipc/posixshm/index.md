@@ -2,7 +2,7 @@
 title = "操作系统 —— 进程间通信之 Posix 共享内存"
 categories = [ "进程间通信", "操作系统" ]
 tags = [ "posix", "共享内存", "进程间通信", "操作系统", "application", "linux" ]
-date = "2021-12-13 02:51:23 -0400"
+date = "2022-10-16 12:23:30 -0300"
 image = "one_server_multi_client.png"
 author = "isshe"
 +++

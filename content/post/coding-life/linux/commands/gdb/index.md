@@ -2,9 +2,9 @@
 title = "Linux 命令 —— gdb"
 categories = [ "Linux 命令" ]
 tags = [ "gdb", "linux 命令", "command", "linux" ]
-date = "2022-07-06 06:00:17 -0300"
+date = "2022-10-16 12:23:30 -0300"
 author = "isshe"
-image = "image.png"
+image = "image.jpg"
 +++
 
 

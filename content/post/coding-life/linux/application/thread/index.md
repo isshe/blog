@@ -1,7 +1,7 @@
 +++
 title = "操作系统 —— 线程"
 tags = [ "thread", "操作系统", "application", "linux" ]
-date = "2021-12-13 02:51:23 -0400"
+date = "2022-10-16 12:23:30 -0300"
 image = "prethreading.png"
 author = "isshe"
 categories = [ "操作系统" ]

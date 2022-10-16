@@ -1,10 +1,10 @@
 +++
 title = "数据库 —— Postgresql 慢查询分析"
-date = "2021-12-25 02:22:19 -0400"
+date = "2022-10-16 12:23:30 -0300"
 author = "isshe"
 categories = [ "数据库", "Postgresql" ]
 tags = [ "数据库", "postgresql", "Database" ]
-image = "image.png"
+image = "image.jpg"
 +++
 
 

@@ -1,6 +1,6 @@
 +++
 title = "设计模式 —— 观察者模式"
-date = "2021-12-12 07:15:30 -0400"
+date = "2022-10-16 12:23:30 -0300"
 image = "classdiagram.png"
 author = "isshe"
 categories = [ "设计模式" ]

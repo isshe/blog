@@ -1,6 +1,6 @@
 +++
 title = "设计模式 —— 抽象工厂模式"
-date = "2021-12-12 07:15:30 -0400"
+date = "2022-10-16 12:23:30 -0300"
 image = "compare_method_abstract2.png"
 author = "isshe"
 categories = [ "设计模式" ]

@@ -1,10 +1,10 @@
 +++
 title = "网络协议 —— ARP"
 tags = [ "ARP", "网络协议", "计算机网络", "protocol", "Computer Network" ]
-date = "2021-12-12 11:35:47 -0400"
+date = "2022-10-16 12:23:30 -0300"
 author = "isshe"
 categories = [ "网络协议", "计算机网络" ]
-image = "image.png"
+image = "image.jpg"
 +++
 
 ARP协议

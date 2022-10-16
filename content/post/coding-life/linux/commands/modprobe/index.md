@@ -2,7 +2,7 @@
 title = "Linux 命令 —— modprobe"
 categories = [ "Linux 命令" ]
 tags = [ "modprobe", "linux 命令", "command", "linux" ]
-date = "2021-12-13 02:51:23 -0400"
+date = "2022-10-16 12:23:30 -0300"
 author = "isshe"
 image = "image.jpg"
 +++
