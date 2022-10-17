@@ -2,7 +2,7 @@
 title = "Linux 命令 —— gdb"
 categories = [ "Linux 命令" ]
 tags = [ "gdb", "linux 命令", "command", "linux" ]
-date = "2022-10-16 12:23:30 -0300"
+date = "2022-10-17 06:00:04 -0300"
 author = "isshe"
 image = "image.jpg"
 +++
@@ -201,6 +201,9 @@ gdb sbin/nginx
 # 另一个 shell，发送请求 curl localhost:xxx
 
 # 此时 gdb 这边到达断点
+# 查看调用栈
+> bt
+
 #  打印想看的变量
 > p values[0]
 > p values[1]
