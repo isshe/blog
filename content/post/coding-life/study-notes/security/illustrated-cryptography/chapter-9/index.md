@@ -4,7 +4,7 @@ date = "2022-10-16 12:23:30 -0300"
 author = "isshe"
 categories = [ "读书笔记", "图解编码技术" ]
 tags = [ "读书笔记", "图解编码技术", "Study Notes" ]
-image = "image.png"
+image = "image.jpg"
 +++
 
 
