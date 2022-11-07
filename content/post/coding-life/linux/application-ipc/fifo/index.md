@@ -4,7 +4,7 @@ categories = [ "进程间通信", "操作系统" ]
 tags = [ "fifo", "进程间通信", "操作系统", "application", "linux" ]
 date = "2022-10-16 12:23:30 -0300"
 author = "isshe"
-image = "image.jpeg"
+image = "image.jpg"
 +++
 
 
