@@ -4,7 +4,7 @@ date = "2022-10-16 12:23:30 -0300"
 author = "isshe"
 categories = [ "操作系统" ]
 tags = [ "操作系统", "application", "linux", "IO 多路复用" ]
-image = "image.jpeg"
+image = "image.png"
 +++
 
 
