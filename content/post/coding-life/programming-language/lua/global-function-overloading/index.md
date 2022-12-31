@@ -4,7 +4,7 @@ date = "2022-10-16 12:23:30 -0300"
 author = "isshe"
 categories = [ "Lua" ]
 tags = [ "lua", "Programming Language" ]
-image = "image.png"
+image = "image.jpg"
 +++
 
 
