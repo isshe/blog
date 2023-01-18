@@ -4,7 +4,7 @@ categories = [ "Linux 命令" ]
 tags = [ "gdb", "linux 命令", "command", "linux" ]
 date = "2022-10-17 06:00:04 -0300"
 author = "isshe"
-image = "image.png"
+image = "image.jpg"
 +++
 
 
