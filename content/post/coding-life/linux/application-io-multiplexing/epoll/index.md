@@ -1,10 +1,10 @@
 +++
 title = "操作系统 —— IO 多路复用之 epoll"
-date = "2023-02-15 06:00:05 -0400"
+date = "2022-10-16 12:23:30 -0300"
 author = "isshe"
 categories = [ "操作系统" ]
 tags = [ "操作系统", "application", "linux", "IO 多路复用" ]
-image = "image.png"
+image = "image.jpg"
 +++
 
 
