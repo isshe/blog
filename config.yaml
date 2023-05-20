@@ -1,7 +1,7 @@
 baseurl: https://isshe.site
 languageCode: en-us
 theme: hugo-theme-stack
-paginate: 5
+paginate: 10
 title: 树深时间录
 
 # Change it to your Disqus shortname before using
