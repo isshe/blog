@@ -1,10 +1,10 @@
 +++
 title = "OpenResty ngx.sleep"
-date = "2023-05-16 13:38:34 -0300"
+date = "2023-04-02 06:00:02 -0300"
 author = "isshe"
 categories = [ "OpenResty", "工具", "源码分析", "Nginx" ]
 tags = [ "openresty", "工具", "源码分析", "nginx", "OpenResty" ]
-image = "image.png"
+image = "image.jpg"
 +++
 
 # ngx.sleep
