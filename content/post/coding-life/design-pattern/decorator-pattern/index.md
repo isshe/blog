@@ -1,7 +1,7 @@
 +++
 title = "设计模式 —— 装饰者模式"
 date = "2022-10-16 12:23:30 -0300"
-image = "classdiagram.png"
+image = "xingbazi-classdiagram.png"
 author = "isshe"
 categories = [ "设计模式" ]
 tags = [ "设计模式", "Design Pattern" ]
