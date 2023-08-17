@@ -3,7 +3,7 @@ title = "操作系统 —— 进程间通信之 SystemV 消息队列"
 categories = [ "进程间通信", "操作系统" ]
 tags = [ "systemv", "消息队列", "进程间通信", "操作系统", "application", "linux" ]
 date = "2022-10-16 12:23:30 -0300"
-image = "System_V_msg_queue_struct_in_kernel.png"
+image = "msg_queue_system_limit.png"
 author = "isshe"
 +++
 

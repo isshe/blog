@@ -1,7 +1,7 @@
 +++
 title = "设计模式 —— 外观模式"
 date = "2022-10-16 12:23:30 -0300"
-image = "Facede.png"
+image = "Struct.png"
 author = "isshe"
 categories = [ "设计模式" ]
 tags = [ "设计模式", "Design Pattern" ]
