@@ -1,7 +1,7 @@
 +++
 title = "图解密码技术 —— 第四章-分组密码的模式"
 date = "2022-10-16 12:23:30 -0300"
-image = "OFB模式1.png"
+image = "OFB模式2.png"
 author = "isshe"
 categories = [ "读书笔记", "图解编码技术" ]
 tags = [ "读书笔记", "图解编码技术", "Study Notes" ]
