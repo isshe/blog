@@ -3,7 +3,7 @@ title = "操作系统 —— 进程间通信之共享内存"
 categories = [ "进程间通信", "操作系统" ]
 tags = [ "posix", "共享内存", "进程间通信", "操作系统", "application", "linux" ]
 date = "2022-10-16 12:23:30 -0300"
-image = "not_share_memory.png"
+image = "filesize_eq_mmapsize.png"
 author = "isshe"
 +++
 
