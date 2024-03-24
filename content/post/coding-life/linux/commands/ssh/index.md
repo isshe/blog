@@ -2,7 +2,7 @@
 title = "Linux 命令 —— ssh"
 categories = [ "Linux 命令" ]
 tags = [ "ssh", "linux 命令", "command", "linux" ]
-date = "2024-03-24 20:58:12 +0800"
+date = "2024-03-24 21:06:54 +0800"
 author = "isshe"
 image = "image.jpg"
 +++
