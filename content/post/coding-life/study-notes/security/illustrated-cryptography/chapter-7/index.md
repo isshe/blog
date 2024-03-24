@@ -1,6 +1,6 @@
 +++
 title = "图解密码技术 —— 第七章-单向散列函数"
-date = "2022-10-16 12:23:30 -0300"
+date = "2024-03-24 20:58:12 +0800"
 author = "isshe"
 categories = [ "读书笔记", "图解编码技术" ]
 tags = [ "读书笔记", "图解编码技术", "Study Notes" ]
@@ -11,9 +11,9 @@ image = "image.jpg"
 第七章 单向散列函数
 ---
 
-单向散列函数(one-way hash function): 可以根据消息的内容，计算出散列值。
+单向散列函数 (one-way hash function): 可以根据消息的内容，计算出散列值。
 * 散列值可以被用于检查消息的完整性。
-* 输入：消息(message)；输出：散列值(hash value)。
+* 输入：消息 (message)；输出：散列值 (hash value)。
 
 # 性质
 抗碰撞性：collision resistance，难以发生碰撞。

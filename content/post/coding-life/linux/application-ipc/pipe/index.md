@@ -2,7 +2,7 @@
 title = "操作系统 —— 进程间通信之管道"
 categories = [ "进程间通信", "操作系统" ]
 tags = [ "pipe", "进程间通信", "操作系统", "application", "linux" ]
-date = "2022-10-16 12:23:30 -0300"
+date = "2024-03-24 20:58:12 +0800"
 author = "isshe"
 image = "image.jpg"
 +++
@@ -26,12 +26,12 @@ int pipe(int fd[2]);
 * `fd[1]`为写而打开；
 * `fd[1]`的输出是`fd[0]`的输入；【？！】
 * `PIPE_BUF`规定内核的管道缓冲区的大小。
-    * `pathconf`及`fpathconf`可以确定PIPE_BUF的值。
+    * `pathconf`及`fpathconf`可以确定 PIPE_BUF 的值。
 
 * 当管道的一端被关闭后，适用的规则：
-    * 当读(read)一个写端被关闭的管道，在所有数据被读取后，read返回0；
-    * 当写(write)一个读端被关闭的管道，则产生信号`SIGPIPE`。
-        * 忽略/捕捉信号并从信号处理程序返回后，write返回-1，errno=EPIPE。
+    * 当读 (read) 一个写端被关闭的管道，在所有数据被读取后，read 返回 0；
+    * 当写 (write) 一个读端被关闭的管道，则产生信号`SIGPIPE`。
+        * 忽略/捕捉信号并从信号处理程序返回后，write 返回 -1，errno=EPIPE。
 
 # A. 疑问
 * `fd[1]`的输出是`fd[0]`的输入？

@@ -1,6 +1,6 @@
 +++
 title = "OpenResty 轻量级线程"
-date = "2023-01-08 06:00:04 -0400"
+date = "2024-03-24 20:58:12 +0800"
 author = "isshe"
 categories = [ "OpenResty", "工具", "源码分析", "Nginx" ]
 tags = [ "openresty", "工具", "源码分析", "nginx", "OpenResty" ]
@@ -139,7 +139,7 @@ ngx_http_lua_inject_uthread_api(ngx_log_t *log, lua_State *L)
 }
 ```
 
-在这个函数中，拿到了 “spawn” 等操作实际调用的 C 函数，我们后续从这些函数着手进行探索。
+在这个函数中，拿到了“spawn”等操作实际调用的 C 函数，我们后续从这些函数着手进行探索。
 
 ### ngx.thread.spawn: ngx_http_lua_uthread_spawn
 

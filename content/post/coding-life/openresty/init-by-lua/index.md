@@ -1,6 +1,6 @@
 +++
 title = "OpenResty init_by_lua*"
-date = "2022-11-06 06:00:05 -0400"
+date = "2024-03-24 20:58:12 +0800"
 author = "isshe"
 categories = [ "OpenResty", "工具", "源码分析", "Nginx" ]
 tags = [ "openresty", "工具", "源码分析", "nginx", "OpenResty" ]
@@ -80,7 +80,7 @@ init_by_lua_file /usr/local/openresty/lua/init.lua
 
 - ngx_http_lua_init_by_inline 如何被调用？
 
-详见上篇文章《[模块初始化](001-module-init.md)》 的 “ngx_http_lua_init 执行流程”
+详见上篇文章《[模块初始化](001-module-init.md)》的“ngx_http_lua_init 执行流程”
 
 - ngx_http_lua_init_by_inline 的执行流程
 

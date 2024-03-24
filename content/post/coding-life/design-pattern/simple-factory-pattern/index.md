@@ -1,6 +1,6 @@
 +++
 title = "设计模式 —— 简单工厂模式"
-date = "2022-10-16 12:23:30 -0300"
+date = "2024-03-24 20:58:12 +0800"
 image = "ClassDiagram.png"
 author = "isshe"
 categories = [ "设计模式" ]
@@ -10,8 +10,8 @@ tags = [ "设计模式", "Design Pattern" ]
 
 # 简单工厂模式
 * 别称：静态工厂方法
-* 简单工厂并不是一种模式，而是一种编程习惯。——《Head First设计模式》
-* 代码比较简单，就不写代码的Readme了
+* 简单工厂并不是一种模式，而是一种编程习惯。——《Head First 设计模式》
+* 代码比较简单，就不写代码的 Readme 了
 
 ## 1. 基础概念
 * 定义/意图：无
@@ -19,8 +19,8 @@ tags = [ "设计模式", "Design Pattern" ]
 ![类图](ClassDiagram.png)
 * 出场嘉宾
     * 产品/Product：产品，抽象类（或接口）
-    * 具体产品/Concrete Product：具体产品，继承/实现Product
-    * 工厂/Creator：工厂，用于生产Product
+    * 具体产品/Concrete Product：具体产品，继承/实现 Product
+    * 工厂/Creator：工厂，用于生产 Product
 
 ## 2. 解决什么问题？如何解决？
 无
@@ -28,7 +28,7 @@ tags = [ "设计模式", "Design Pattern" ]
 ## 3. 优缺点是什么？
 ### 3.1 优点
 * 把变化集中到一块，易于管理。
-* "消费对象"不需要直接创建具体产品(Concrete Product)，把对象创建和使用分开。
+* "消费对象"不需要直接创建具体产品 (Concrete Product)，把对象创建和使用分开。
 
 
 ### 3.2 缺点
@@ -57,5 +57,5 @@ tags = [ "设计模式", "Design Pattern" ]
 * 抽象工厂模式
 
 ## z. 参考
-* 《Head First设计模式》
+* 《Head First 设计模式》
 

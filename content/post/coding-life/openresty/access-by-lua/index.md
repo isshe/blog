@@ -1,6 +1,6 @@
 +++
 title = "OpenResty access_by_lua*"
-date = "2022-11-06 06:00:05 -0400"
+date = "2024-03-24 20:58:12 +0800"
 author = "isshe"
 categories = [ "OpenResty", "工具", "源码分析", "Nginx" ]
 tags = [ "openresty", "工具", "源码分析", "nginx", "OpenResty" ]
@@ -13,8 +13,8 @@ image = "image.jpg"
 
 ## 用法
 
-- 上下文: http, server, location, location if
-- 阶段: access tail
+- 上下文：http, server, location, location if
+- 阶段：access tail
   - **注意：执行阶段晚于标准 ngx_http_access_module 模块。**
 - 语法：
     - 与 `init_by_lua*` 类似，不再赘述。

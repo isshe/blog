@@ -1,6 +1,6 @@
 +++
 title = "OpenResty ngx.sleep"
-date = "2023-04-02 06:00:02 -0300"
+date = "2024-03-24 20:58:12 +0800"
 author = "isshe"
 categories = [ "OpenResty", "工具", "源码分析", "Nginx" ]
 tags = [ "openresty", "工具", "源码分析", "nginx", "OpenResty" ]
@@ -16,7 +16,7 @@ image = "image.jpg"
 
 - 了解 ngx.sleep 的使用。
 - 了解 ngx.sleep 的实现。
-- ngx.sleep()及其他 cosocket 相关的函数不能用在 init_by_lua/init_worker_by_lua/set_by_lua/header_filter_by_lua/body_filter_by_lua/log_by_lua 的原因是什么?
+- ngx.sleep() 及其他 cosocket 相关的函数不能用在 init_by_lua/init_worker_by_lua/set_by_lua/header_filter_by_lua/body_filter_by_lua/log_by_lua 的原因是什么？
 
 ## 使用
 
@@ -66,6 +66,6 @@ ngx.sleep 的实现比较简单，一句话总结：
 
 问题：
 
-1.ngx.sleep()及其他 cosocket 相关的函数不能用在 init_by_lua/init_worker_by_lua/set_by_lua/header_filter_by_lua/body_filter_by_lua/log_by_lua 的原因是什么?
+1.ngx.sleep() 及其他 cosocket 相关的函数不能用在 init_by_lua/init_worker_by_lua/set_by_lua/header_filter_by_lua/body_filter_by_lua/log_by_lua 的原因是什么？
 
 - 答：这些阶段都不能 yield，需要是可以 yield 的阶段（NGX_HTTP_LUA_CONTEXT_YIELDABLE）。详见 [OpenResty 中的 `*_by_lua*` 及阶段](001-2-x_by_luax-and-phase.md)

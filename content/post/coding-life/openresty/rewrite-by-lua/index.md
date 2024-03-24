@@ -1,6 +1,6 @@
 +++
 title = "OpenResty rewrite_by_lua*"
-date = "2023-04-18 06:00:02 -0300"
+date = "2024-03-24 20:58:12 +0800"
 author = "isshe"
 categories = [ "OpenResty", "工具", "源码分析", "Nginx" ]
 tags = [ "openresty", "工具", "源码分析", "nginx", "OpenResty" ]
@@ -13,13 +13,13 @@ image = "image.jpg"
 
 ## 用法
 
-- 上下文: http, server, location, location if
-- 阶段: rewrite tail
+- 上下文：http, server, location, location if
+- 阶段：rewrite tail
   - **注意：执行阶段晚于标准 ngx_http_rewrite_module 模块。**
 - 语法：
     - 与 `init_by_lua*` 类似，不再赘述。
 - 注意：
-  - 如果 rewrite_by_lua* 指定的 Lua 代码中通过 ngx.exit(code) 退出，如果 code = ngx.OK（非 ngx.HTTP_OK），则会继续执行!
+  - 如果 rewrite_by_lua* 指定的 Lua 代码中通过 ngx.exit(code) 退出，如果 code = ngx.OK（非 ngx.HTTP_OK），则会继续执行！
 
 ## 实现
 
@@ -136,7 +136,7 @@ image = "image.jpg"
 ...
 ```
 
-读事件到达 worker 进程后，相应的事件处理模块（不同系统应当是使用了不同的事件模块，例如 Linux 使用 epoll，Unix 使用 kqueue ）调用读事件处理程序对请求进行读取并解析，然后调用各个阶段的处理程序。
+读事件到达 worker 进程后，相应的事件处理模块（不同系统应当是使用了不同的事件模块，例如 Linux 使用 epoll，Unix 使用 kqueue）调用读事件处理程序对请求进行读取并解析，然后调用各个阶段的处理程序。
 
 （请求的处理过程及阶段切换过程，在后续的 Nginx 系列文章中进行补充。）
 

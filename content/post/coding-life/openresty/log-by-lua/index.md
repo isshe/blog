@@ -1,6 +1,6 @@
 +++
 title = "OpenResty log_by_lua*"
-date = "2022-11-13 06:00:04 -0400"
+date = "2024-03-24 20:58:12 +0800"
 author = "isshe"
 categories = [ "OpenResty", "工具", "源码分析", "Nginx" ]
 tags = [ "openresty", "工具", "源码分析", "nginx", "OpenResty" ]
@@ -13,8 +13,8 @@ image = "image.jpg"
 
 ## 用法
 
-- 上下文: http, server, location, location if
-- 阶段: log
+- 上下文：http, server, location, location if
+- 阶段：log
 - 语法：
     - 与 `init_by_lua*` 类似，不再赘述。
 - 注意：

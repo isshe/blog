@@ -1,6 +1,6 @@
 +++
 title = "OpenResty init_worker_by_lua*"
-date = "2022-11-06 06:00:05 -0400"
+date = "2024-03-24 20:58:12 +0800"
 author = "isshe"
 categories = [ "OpenResty", "工具", "源码分析", "Nginx" ]
 tags = [ "openresty", "工具", "源码分析", "nginx", "OpenResty" ]
@@ -127,7 +127,7 @@ luaL_loadfile 也就是读文件，然后加载代码。
 
 ## TODO
 
-- 探究 “为什么调用栈少了一帧”。
+- 探究“为什么调用栈少了一帧”。
 
 ## 参考
 
