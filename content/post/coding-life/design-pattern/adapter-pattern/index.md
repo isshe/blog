@@ -1,7 +1,7 @@
 +++
 title = "设计模式 —— 适配器模式"
 date = "2024-03-24 21:06:54 +0800"
-image = "ClassDiagram_Multi_Adaptee.png"
+image = "ClassDiagram_Object_Adapter.png"
 author = "isshe"
 categories = [ "设计模式" ]
 tags = [ "设计模式", "Design Pattern" ]
