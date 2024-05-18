@@ -1,13 +1,13 @@
 +++
-title = "OpenResty *_by_lua* 及阶段"
-date = "2024-03-24 21:06:54 +0800"
+title = "OpenResty HTTP 模块的 *_by_lua* 及阶段"
+date = "2024-05-19 01:15:10 +0800"
 author = "isshe"
 categories = [ "OpenResty", "工具", "源码分析", "Nginx" ]
 tags = [ "openresty", "工具", "源码分析", "nginx", "OpenResty" ]
 image = "image.jpg"
 +++
 
-# OpenResty 中的 `*_by_lua*` 及阶段
+# OpenResty 中 HTTP 模块的 `*_by_lua*` 及阶段
 
 目的：
 
