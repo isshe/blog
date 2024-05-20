@@ -1,5 +1,5 @@
 +++
-title = "操作系统 —— IO 多路复用之 poll"
+title = "操作系统 —— I/O 多路复用之 poll"
 date = "2022-10-16 12:00:00 +0800"
 author = "isshe"
 categories = [ "操作系统" ]
