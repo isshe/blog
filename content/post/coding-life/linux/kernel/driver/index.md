@@ -1,7 +1,7 @@
 +++
 title = "Linux 内核 —— 设备驱动"
 tags = [ "driver", "linux 内核", "kernel", "linux" ]
-date = "2024-03-24 21:06:54 +0800"
+date = "2022-10-16 12:00:00 +0800"
 author = "isshe"
 categories = [ "Linux 内核" ]
 image = "image.jpg"

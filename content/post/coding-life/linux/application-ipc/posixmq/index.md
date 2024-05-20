@@ -2,7 +2,7 @@
 title = "操作系统 —— 进程间通信之 Posix 消息队列"
 categories = [ "进程间通信", "操作系统" ]
 tags = [ "posix", "消息队列", "进程间通信", "操作系统", "application", "linux" ]
-date = "2024-03-24 21:06:54 +0800"
+date = "2022-10-16 12:00:00 +0800"
 author = "isshe"
 image = "image.jpg"
 +++

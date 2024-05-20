@@ -1,7 +1,7 @@
 +++
 title = "网络协议 —— ICMP"
 tags = [ "ICMP", "网络协议", "计算机网络", "protocol", "Computer Network" ]
-date = "2024-03-24 21:06:54 +0800"
+date = "2022-10-16 12:00:00 +0800"
 author = "isshe"
 categories = [ "网络协议", "计算机网络" ]
 image = "image.jpg"

@@ -1,6 +1,6 @@
 +++
 title = "设计模式 —— 简单工厂模式"
-date = "2024-03-24 21:06:54 +0800"
+date = "2022-10-16 12:00:00 +0800"
 image = "ClassDiagram.png"
 author = "isshe"
 categories = [ "设计模式" ]
