@@ -1,7 +1,7 @@
 +++
 title = "图解密码技术 —— 第六章 - 混合密码系统"
 date = "2022-10-16 12:00:00 +0800"
-image = "解密.png"
+image = "加密.png"
 author = "isshe"
 categories = [ "读书笔记", "图解编码技术" ]
 tags = [ "读书笔记", "图解编码技术", "Study Notes" ]
