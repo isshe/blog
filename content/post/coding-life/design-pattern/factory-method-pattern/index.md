@@ -1,7 +1,7 @@
 +++
 title = "设计模式 —— 工厂方法模式"
 date = "2022-10-16 12:00:00 +0800"
-image = "依赖倒置原则示例.png"
+image = "ClassDiagram_HF.png"
 author = "isshe"
 categories = [ "设计模式" ]
 tags = [ "设计模式", "Design Pattern" ]
